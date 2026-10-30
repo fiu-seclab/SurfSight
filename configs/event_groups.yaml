@@ -1,0 +1,51 @@
+# Event groups for the modality ablation.
+# Names are the event types the sensor records.
+pointer:
+  - mousedown
+  - mouseup
+  - mousemove
+  - click
+  - dblclick
+  - wheel
+  - mousewheel
+  - touchstart
+  - touchend
+  - touchmove
+keyboard:
+  - keydown
+  - keyup
+  - keypress
+scroll:
+  - scroll
+passive:
+  - mouseover
+  - mouseout
+  - focus
+  - blur
+  - load
+  - unload
+  - beforeunload
+  - pagehide
+  - pageshow
+  - resize
+  - change
+  - select
+  - hashchange
+  - popstate
+  - storage
+  - online
+  - offline
+  - message
+  - error
+  - abort
+  - beforeprint
+  - afterprint
+# Monitored, but not assigned by the plan's group lists.
+other:
+  - deviceorientation
+  - submit
+  - reset
+  - contextmenu
+  - cut
+  - copy
+  - paste

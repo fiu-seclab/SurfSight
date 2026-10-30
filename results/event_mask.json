@@ -1,0 +1,234 @@
+{
+  "seed": 0,
+  "window_ms": 200,
+  "architecture": "lstm",
+  "epochs": 30,
+  "patience": 10,
+  "batch_size": 64,
+  "rows": [
+    {
+      "mask": "All events",
+      "accuracy": 0.9904530463461204,
+      "macro_f1": 0.9904585346206354,
+      "human_recall": 0.9854191980558931,
+      "n_test": 5761,
+      "empty_test": 0,
+      "empty_train": 0,
+      "median_events": 8.0,
+      "epochs_ran": 30,
+      "seconds": 1295.0,
+      "per_class": {
+        "Browser-Use": {
+          "precision": 0.9854191980558931,
+          "recall": 0.9854191980558931,
+          "f1": 0.9854191980558931,
+          "support": 823
+        },
+        "Gremlins": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 823
+        },
+        "HLISA": {
+          "precision": 0.9903381642512077,
+          "recall": 0.9963547995139733,
+          "f1": 0.9933373712901272,
+          "support": 823
+        },
+        "Human": {
+          "precision": 0.98661800486618,
+          "recall": 0.9854191980558931,
+          "f1": 0.9860182370820668,
+          "support": 823
+        },
+        "Random Mouse": {
+          "precision": 0.9963547995139733,
+          "recall": 0.9963547995139733,
+          "f1": 0.9963547995139733,
+          "support": 823
+        },
+        "Skyvern": {
+          "precision": 0.9759903961584634,
+          "recall": 0.9878493317132442,
+          "f1": 0.9818840579710145,
+          "support": 823
+        },
+        "ZA Proxy": {
+          "precision": 0.9987639060568603,
+          "recall": 0.9817739975698664,
+          "f1": 0.9901960784313726,
+          "support": 823
+        }
+      }
+    },
+    {
+      "mask": "Pointer and keyboard",
+      "accuracy": 0.9644159000173581,
+      "macro_f1": 0.9645380608073688,
+      "human_recall": 0.9659781287970839,
+      "n_test": 5761,
+      "empty_test": 72,
+      "empty_train": 1157,
+      "median_events": 4.0,
+      "epochs_ran": 30,
+      "seconds": 12824.1,
+      "per_class": {
+        "Browser-Use": {
+          "precision": 0.8856812933025404,
+          "recall": 0.9319562575941677,
+          "f1": 0.9082297217288336,
+          "support": 823
+        },
+        "Gremlins": {
+          "precision": 1.0,
+          "recall": 0.9975698663426489,
+          "f1": 0.9987834549878345,
+          "support": 823
+        },
+        "HLISA": {
+          "precision": 0.9854545454545455,
+          "recall": 0.9878493317132442,
+          "f1": 0.9866504854368932,
+          "support": 823
+        },
+        "Human": {
+          "precision": 0.9706959706959707,
+          "recall": 0.9659781287970839,
+          "f1": 0.9683313032886723,
+          "support": 823
+        },
+        "Random Mouse": {
+          "precision": 0.989010989010989,
+          "recall": 0.9842041312272175,
+          "f1": 0.9866017052375152,
+          "support": 823
+        },
+        "Skyvern": {
+          "precision": 0.9259723964868256,
+          "recall": 0.8967193195625759,
+          "f1": 0.9111111111111111,
+          "support": 823
+        },
+        "ZA Proxy": {
+          "precision": 0.9975429975429976,
+          "recall": 0.9866342648845686,
+          "f1": 0.9920586438607208,
+          "support": 823
+        }
+      }
+    },
+    {
+      "mask": "Pointer",
+      "accuracy": 0.9456691546606492,
+      "macro_f1": 0.9459611339032817,
+      "human_recall": 0.968408262454435,
+      "n_test": 5761,
+      "empty_test": 215,
+      "empty_train": 4247,
+      "median_events": 4.0,
+      "epochs_ran": 30,
+      "seconds": 24733.1,
+      "per_class": {
+        "Browser-Use": {
+          "precision": 0.8764568764568764,
+          "recall": 0.913730255164034,
+          "f1": 0.8947055324211779,
+          "support": 823
+        },
+        "Gremlins": {
+          "precision": 0.9947089947089947,
+          "recall": 0.913730255164034,
+          "f1": 0.9525015832805573,
+          "support": 823
+        },
+        "HLISA": {
+          "precision": 0.9842424242424243,
+          "recall": 0.9866342648845686,
+          "f1": 0.9854368932038835,
+          "support": 823
+        },
+        "Human": {
+          "precision": 0.8787210584343991,
+          "recall": 0.968408262454435,
+          "f1": 0.9213872832369943,
+          "support": 823
+        },
+        "Random Mouse": {
+          "precision": 0.9926108374384236,
+          "recall": 0.9793438639125152,
+          "f1": 0.9859327217125382,
+          "support": 823
+        },
+        "Skyvern": {
+          "precision": 0.9077117572692794,
+          "recall": 0.8724179829890644,
+          "f1": 0.8897149938042132,
+          "support": 823
+        },
+        "ZA Proxy": {
+          "precision": 0.9987684729064039,
+          "recall": 0.9854191980558931,
+          "f1": 0.9920489296636086,
+          "support": 823
+        }
+      }
+    },
+    {
+      "mask": "Keyboard",
+      "accuracy": 0.29474049644159,
+      "macro_f1": 0.20538606254840502,
+      "human_recall": 0.07290400972053462,
+      "n_test": 5761,
+      "empty_test": 4881,
+      "empty_train": 110374,
+      "median_events": 0.0,
+      "epochs_ran": 20,
+      "seconds": 5691.9,
+      "per_class": {
+        "Browser-Use": {
+          "precision": 0.16854392791316813,
+          "recall": 1.0,
+          "f1": 0.2884682790045566,
+          "support": 823
+        },
+        "Gremlins": {
+          "precision": 0.9975186104218362,
+          "recall": 0.976913730255164,
+          "f1": 0.9871086556169429,
+          "support": 823
+        },
+        "HLISA": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 823
+        },
+        "Human": {
+          "precision": 0.9836065573770492,
+          "recall": 0.07290400972053462,
+          "f1": 0.13574660633484162,
+          "support": 823
+        },
+        "Random Mouse": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 823
+        },
+        "Skyvern": {
+          "precision": 1.0,
+          "recall": 0.013365735115431349,
+          "f1": 0.026378896882494004,
+          "support": 823
+        },
+        "ZA Proxy": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 823
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+file,users,events,bytes
+browser_use_agents.csv,2,3000,251685
+gremlins.csv,2,842,70972
+hlisa_traces.csv,2,2055,180105
+random_mouse_bot.csv,2,1743,154323
+random_mouse_with_sleep_bot.csv,2,357,31606
+skyvern_agents.csv,2,3000,251247
+survey1_human.csv,2,3000,254070
+survey2_human.csv,2,3000,264519
+tax1_human.csv,2,2525,213356
+tax2_human.csv,2,2664,227374
+za_proxy.csv,2,1009,87634

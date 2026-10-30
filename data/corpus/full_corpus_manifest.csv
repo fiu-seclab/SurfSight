@@ -1,0 +1,12 @@
+file,source,users,events
+gremlins.csv,json,500,219524
+hlisa_traces.csv,json,499,472665
+za_proxy.csv,json,104,58014
+random_mouse_bot.csv,json,100,85940
+random_mouse_with_sleep_bot.csv,json,100,17414
+browser_use_agents.csv,sample_csv,3,21416
+skyvern_agents.csv,sample_csv,94,192766
+tax1_human.csv,sample_csv,77,436763
+tax2_human.csv,sample_csv,21,140035
+survey1_human.csv,sample_csv,97,655650
+survey2_human.csv,sample_csv,46,825747

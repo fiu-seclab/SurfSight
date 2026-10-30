@@ -1,0 +1,9 @@
+# Pinned to the conda environment used for the saved runs (Python 3.8).
+# TensorFlow 2.10 does not install on newer Python.
+tensorflow==2.10.1
+numpy==1.23.1
+pandas==1.5.0
+scikit-learn==1.3.0
+scipy==1.10.1
+matplotlib==3.6.0
+PyYAML==6.0

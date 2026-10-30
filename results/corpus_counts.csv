@@ -1,0 +1,12 @@
+class,page,file,users,sessions,windows_ge5
+Human,Student survey,survey2_human.csv,46,109,46988
+Human,Prolific survey,survey1_human.csv,79,134,43740
+Human,"Tax site 1, production dashboard",tax1_human.csv,50,173,20290
+Human,"Tax site 2, production dashboard",tax2_human.csv,21,110,9883
+ZA Proxy,OWASP benchmark page,za_proxy.csv,104,104,6309
+Gremlins,"Instrumented page, gremlins.js",gremlins.csv,200,200,7072
+Random Mouse,"Instrumented page, Puppeteer",random_mouse_bot.csv,100,100,7481
+Random Mouse,"Instrumented page, Puppeteer",random_mouse_with_sleep_bot.csv,100,100,866
+HLISA,"Instrumented page, HLISA crawler",hlisa_traces.csv,200,200,14289
+Browser-Use,Customer-service survey,browser_use_agents.csv,11,48,18762
+Skyvern,Customer-service survey,skyvern_agents.csv,200,201,14028

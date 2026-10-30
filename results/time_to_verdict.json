@@ -1,0 +1,13 @@
+{
+  "definition": "End of the first non-overlapping 200 ms bin that contains at least five events, measured from the session's first event. Sessions use a five-minute gap. The sample is the same user cap as the closed-set corpus.",
+  "source": "pipeline/time_to_verdict.py",
+  "classes": {
+    "Browser-Use": {"sessions": 48, "covered": 47, "median_s": 17.8, "p90_s": 34.28},
+    "Gremlins": {"sessions": 200, "covered": 200, "median_s": 1.2, "p90_s": 1.2},
+    "HLISA": {"sessions": 200, "covered": 200, "median_s": 0.4, "p90_s": 0.4},
+    "Human": {"sessions": 526, "covered": 398, "median_s": 0.8, "p90_s": 10.4},
+    "Random Mouse": {"sessions": 200, "covered": 199, "median_s": 0.2, "p90_s": 2.68},
+    "Skyvern": {"sessions": 201, "covered": 187, "median_s": 86.2, "p90_s": 127.56},
+    "ZA Proxy": {"sessions": 104, "covered": 104, "median_s": 2.4, "p90_s": 2.4}
+  }
+}
